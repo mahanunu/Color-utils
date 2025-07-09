@@ -18,3 +18,17 @@ describe('invertColor', () => {
     expect(invertColor('#FFFFFF')).toBe('#000000');
   });
 });
+import { darken, lighten } from '../src/index';
+
+describe('darken', () => {
+  it('assombrit une couleur claire', () => {
+    expect(darken('#ffcc00', 30)).toBe('#e1ae00');
+  });
+});
+
+describe('lighten', () => {
+  it('éclaircit une couleur sombre', () => {
+    expect(lighten('#333300', 50)).toBe('#656532');
+  });
+});
+
