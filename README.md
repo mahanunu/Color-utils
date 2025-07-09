@@ -2,7 +2,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/color-utils?color=blue)](https://www.npmjs.com/package/color-utils)
 [![Tests](https://img.shields.io/badge/tests-passing-brightgreen)](https://github.com/mahanunu/Color-utils/actions)
-[![License](https://img.shields.io/npm/l/color-utils)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 **color-utils** est une librairie JavaScript/TypeScript simple et légère pour manipuler facilement les couleurs au format HEX et RGB.
 

@@ -9,7 +9,7 @@
     "lint": "eslint . --ext .ts"
   },
   "author": "Mahalia",
-  "license": "ISC",
+  "license": "MIT",
   "type": "commonjs",
   "devDependencies": {
     "@eslint/js": "^9.30.1",
