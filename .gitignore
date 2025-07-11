@@ -1,0 +1,14 @@
+# Node
+node_modules/
+dist/
+
+# Logs
+*.log
+
+# Build cache
+.vite/
+.vitest/
+
+# IDE
+.vscode/
+*.swp
