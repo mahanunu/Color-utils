@@ -23,8 +23,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name:  Lint
-        run: npx eslint . --ext .ts
+      - name: Lint
+        run: node --import eslint --no-warnings --no-experimental-fetch --loader=ts-node/esm
 
       - name: Tests
         run: npm test
