@@ -24,7 +24,7 @@ jobs:
         run: npm install
 
       - name: Lint
-        run: node --import eslint --no-warnings --no-experimental-fetch --loader=ts-node/esm
+        run: npm run lint
 
       - name: Tests
         run: npm test
